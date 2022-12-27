@@ -1,0 +1,17 @@
+# conda env create --file environment.yml
+name: world_cup_2022
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - fs
+  - jupyter
+  - jupyterlab
+  - pathlib
+  - pip
+  - pyprojroot
+  - python=3.10.6
+  - pip:
+    - pyhere
+    
